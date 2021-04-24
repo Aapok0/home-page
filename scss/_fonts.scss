@@ -1,0 +1,35 @@
+// ** RALEWAy **
+
+// Raleway Light
+@font-face {
+  font-family: 'font_light';
+  src: url("../fonts/Raleway/static/Raleway-ExtraLight.ttf");
+}
+
+// Raleway Regular
+@font-face {
+  font-family: 'font_regular';
+  src: url("../fonts/Raleway/static/Raleway-Regular.ttf");
+}
+
+// Raleway Bold
+@font-face {
+  font-family: 'font_bold';
+  src: url("../fonts/Raleway/static/Raleway-Bold.ttf");
+}
+
+// Raleway Italic
+@font-face {
+  font-family: 'font_italic';
+  src: url("../fonts/Raleway/static/Raleway-Italic.ttf");
+}
+
+// Raleway Bold Italic
+@font-face {
+  font-family: 'font_bold_italic';
+  src: url("../fonts/Raleway/static/Raleway-BoldItalic.ttf");
+}
+
+// ** THEMING BULMA **
+
+$family-primary: font_regular;

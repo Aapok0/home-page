@@ -1,0 +1,33 @@
+// ** SASS IMPORTS **
+
+@import '../node_modules/bulma/sass/utilities/initial-variables';
+@import '../node_modules/bulma/sass/utilities/functions';
+
+@import './responsive_mixins';
+@import './colors';
+@import './fonts';
+@import './typography';
+
+// ** SITE WIDE **
+
+// ** HERO BANNER **
+
+.hero.has-background {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+}
+  
+.is-transparent {
+  opacity: 1;
+}
+
+
+@import '../node_modules/bulma/bulma';
