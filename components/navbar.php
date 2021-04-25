@@ -1,10 +1,11 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" href="#">
-        LOGO
+      <a href="index.php">
+        <img src="img/logo.png" alt="Logo" width="100" height="100">
       </a>
 
+      <!-- Initializes a collapsible burger-menu -->
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main_nav">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -12,7 +13,7 @@
       </a>
     </div>
 
-
+    <!-- Page links with indication of which page you are on -->
     <div id="main_nav" class="navbar-menu">
       <div class="navbar-end">
         <?php
