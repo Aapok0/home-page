@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar-brand">
       <a href="index.php">
-        <img src="img/logo.png" alt="Logo" width="100" height="100">
+        <img src="img/logo.png" alt="Logo" width="90" height="90">
       </a>
 
       <!-- Initializes a collapsible burger-menu -->
