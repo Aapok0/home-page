@@ -10,6 +10,13 @@
 
 // ** SITE WIDE **
 
+// ** NAVIGATION **
+
+.is-open {
+  background-color: $palette-5;
+  color: $text-invert !important;
+}
+
 // ** HERO BANNER **
 
 .hero.has-background {
@@ -27,6 +34,10 @@
   
 .is-transparent {
   opacity: 1;
+}
+
+.hero-text {
+  max-width: 50% !important;
 }
 
 
