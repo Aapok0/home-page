@@ -1,3 +1,4 @@
+<!-- Navigation start -->
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
@@ -23,3 +24,4 @@
     </div>
   </div>
 </nav>
+<!-- Navigation end -->

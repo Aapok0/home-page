@@ -1,3 +1,4 @@
+    <!-- Footer start -->
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
@@ -7,5 +8,6 @@
         </p>
       </div>
     </footer>
+    <!-- Footer end -->
   </body>
 </html>

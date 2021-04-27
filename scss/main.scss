@@ -40,5 +40,33 @@
   max-width: 50% !important;
 }
 
+// ** RESUME **
+
+.resume-subtitle {
+  border-bottom: 3px solid $palette-3;
+}
+
+.resume-item {
+  border-bottom: 1px solid $palette-3;
+  border-right: 1px solid $palette-3;
+}
+
+// ** SKILLS **
+
+.skillbar {
+  transform: rotate(-90deg);
+  transition: all 1s ease-in-out;
+  
+  /* SVG */
+  fill: none;
+  stroke: $palette-5;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 0 999;
+}
+
+.skilltext {
+  transform: rotate(90deg);
+}
 
 @import '../node_modules/bulma/bulma';

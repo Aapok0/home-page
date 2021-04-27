@@ -15,6 +15,8 @@ include_once("config/chttps.php");
         <link rel="stylesheet" type="text/css" href="css/main.css">
 
         <!-- SCRIPTS -->
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <!-- My scripts -->
         <script src="js/navToggle.js"></script>
     </head>

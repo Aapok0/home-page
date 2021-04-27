@@ -105,6 +105,30 @@
   max-width: 50% !important;
 }
 
+.resume-subtitle {
+  border-bottom: 3px solid #364156;
+}
+
+.resume-item {
+  border-bottom: 1px solid #364156;
+  border-right: 1px solid #364156;
+}
+
+.skillbar {
+  transform: rotate(-90deg);
+  transition: all 1s ease-in-out;
+  /* SVG */
+  fill: none;
+  stroke: #D66853;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 0 999;
+}
+
+.skilltext {
+  transform: rotate(90deg);
+}
+
 /*! bulma.io v0.9.2 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .pagination-previous,
