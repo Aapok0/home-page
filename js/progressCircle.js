@@ -1,8 +1,15 @@
-$(document).ready(function() {
-  var $skillbar = $('.skillbar'),
-    radius = $skillbar.find('circle').attr('r'),
-    percent = $skillbar.data('percent'),
+function animateCircle(bar) {
+  var $bar = $('.' + bar),
+    radius = $bar.find('circle').attr('r'),
+    percent = $bar.data('percent'),
     circumference = 2 * radius * Math.PI,
     level = percent * circumference / 100
-  $skillbar.css('stroke-dasharray', level + ' 999')
-})
+  $bar.css('stroke-dasharray', level + ' 999')
+}
+
+animateCircle("bar_html");
+animateCircle("bar_css");
+animateCircle("bar_scss");
+animateCircle("bar_php");
+animateCircle("bar_team");
+animateCircle("bar_doc");
