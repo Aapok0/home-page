@@ -11,5 +11,17 @@ animateCircle("bar_html");
 animateCircle("bar_css");
 animateCircle("bar_scss");
 animateCircle("bar_php");
+animateCircle("bar_c");
+animateCircle("bar_py");
+animateCircle("bar_js");
+animateCircle("bar_mat");
+animateCircle("bar_sql");
+
 animateCircle("bar_team");
 animateCircle("bar_doc");
+animateCircle("bar_scr");
+animateCircle("bar_ldr");
+animateCircle("bar_ht");
+animateCircle("bar_ca");
+animateCircle("bar_sa");
+animateCircle("bar_pr");
