@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"base64mime": "^0.0.3",
+		"bulma": "^0.9.4",
+		"js-oop": "^1.0.0",
+		"preloader": "^4.0.3"
+	}
+}

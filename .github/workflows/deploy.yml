@@ -1,0 +1,38 @@
+name: Deploy homepage
+
+on: workflow_dispatch
+
+permissions:
+  contents: read
+
+jobs:
+  build and deploy:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.5.3
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@d882d12c64e032187b2edb46d3a0d003b7a43598 # v2.4.0
+        with:
+          version: 8.6.10
+          run_install: false
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Deploy project
+        uses: SamKirkland/FTP-Deploy-Action@8a24039354ee91000cb948cb4a1dbdf1a1b94a3c # v4.3.4
+        with:
+          server: ftp.aapokokko.fi
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: domains/aapokokko.fi/public_html/version2/
+          dangerous-clean-slate: true
+          dry-run: true
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/README.md

@@ -1,0 +1,40 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  base64mime:
+    specifier: ^0.0.3
+    version: 0.0.3
+  bulma:
+    specifier: ^0.9.4
+    version: 0.9.4
+  js-oop:
+    specifier: ^1.0.0
+    version: 1.0.0
+  preloader:
+    specifier: ^4.0.3
+    version: 4.0.3
+
+packages:
+
+  /base64mime@0.0.3:
+    resolution: {integrity: sha512-1QTE5Hzr0ZsKkGzu8A3t5lGoZ8xMaHJh1+WjuQhJvCZM4zNrb16i/9k0fUJI4RyjVdVeFGuUMyn+b3hJzjvaVQ==}
+    dev: false
+
+  /bulma@0.9.4:
+    resolution: {integrity: sha512-86FlT5+1GrsgKbPLRRY7cGDg8fsJiP/jzTqXXVqiUZZ2aZT8uemEOHlU1CDU+TxklPEZ11HZNNWclRBBecP4CQ==}
+    dev: false
+
+  /js-oop@1.0.0:
+    resolution: {integrity: sha512-crvPMJ5ssH7RzNKWnVnJyws4P/6zuL6oq3LoWrRExkS3STN6NyeKfNAsjqptYTkZctniNlXL5Hc4tgKHhNW+qg==}
+    dev: false
+
+  /preloader@4.0.3:
+    resolution: {integrity: sha512-S6DHa/RdSJMfp8JyBhyi300ZzJ8FxOdnxhq6beYAtrNzMss0blVtJtWN0yaPNBJJQ0rtU8C2A9mO0U5CFnWN7g==}
+    dependencies:
+      base64mime: 0.0.3
+      js-oop: 1.0.0
+    dev: false
