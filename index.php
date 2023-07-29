@@ -19,7 +19,7 @@ include(dirname(__FILE__).'/components/navbar.php')
       </p>
       <!-- Call-to-action -->
       <div class='block'>
-        <a href='contacts.php'><button class='button is-link has-text-weight-semibold'>Get in contact!</button></a>
+        <a href='#contact-info'><button class='button is-link has-text-weight-semibold'>Get in contact!</button></a>
       </div>
     </div>
   </div>

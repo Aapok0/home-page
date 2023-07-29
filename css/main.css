@@ -66,6 +66,9 @@
 .font_bold_italic_base {
   font-family: font_bold_italic; }
 
+html {
+  scroll-behavior: smooth; }
+
 .is-open {
   background-color: #D66853;
   color: #11151C !important; }
@@ -106,6 +109,48 @@
 
 .skilltext {
   transform: rotate(90deg); }
+
+.github {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: url(../img/github.png) no-repeat;
+  background-size: cover; }
+
+.github:hover {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: url(../img/github-white.png) no-repeat;
+  background-size: cover; }
+
+.linkedin {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: url(../img/linkedin.png) no-repeat;
+  background-size: cover; }
+
+.linkedin:hover {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: url(../img/linkedin-white.png) no-repeat;
+  background-size: cover; }
+
+.instagram {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: url(../img/instagram.png) no-repeat;
+  background-size: cover; }
+
+.instagram:hover {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: url(../img/instagram-white.png) no-repeat;
+  background-size: cover; }
 
 /*! bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
