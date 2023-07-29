@@ -1,11 +1,11 @@
 <?php
-include("components/header.php")
+include(dirname(__FILE__).'/components/header.php')
 ?>
 
 <?php
-include("components/navbar.php")
+include(dirname(__FILE__).'/components/navbar.php')
 ?>
 
 <?php
-include("components/footer.php")
+include(dirname(__FILE__).'/components/footer.php')
 ?>
