@@ -46,10 +46,10 @@
   src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf"); }
 
 .font_black {
-  color: #0a0a0a; }
+  color: #11151C; }
 
 .font_white {
-  color: white; }
+  color: #F7F8F7; }
 
 .font_light_base {
   font-family: font_light; }
