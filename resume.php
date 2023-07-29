@@ -85,7 +85,20 @@ include("components/navbar.php")
       <!-- Work experience start -->
       <div class="box mb-3 background-1 is-radiusless">
         <h1 class="title is-family-code">Work experience</h1>
-        <h2 class="subtitle is-family-code mt-1 mb-0 resume-subtitle">Office Secretary (IT)</h2>
+        <h2 class="subtitle is-family-code mt-1 mb-0 resume-subtitle">Trainee Consultant</h2>
+        <ul>
+          <li class="pt-4 is-family-code resume-item">Eficode Oy</li>
+          <li class="ml-4 resume-item">11.2022</li>
+        </ul>
+        
+        <h2 class="subtitle is-family-code mt-5 mb-0 resume-subtitle">Student assistant</h2>
+        <ul>
+          <li class="pt-4 is-family-code resume-item">Metropolia University of Applied Sciences</li>
+          <li class="ml-4 resume-item">9.2021 - 12.2021</li>
+          <li class="ml-4 resume-item">Organizing a mathematics and physics workshop for first year student to work on course assignments.</li>
+        </ul>
+        
+        <h2 class="subtitle is-family-code mt-5 mb-0 resume-subtitle">Office Secretary (IT)</h2>
         <ul>
           <li class="pt-4 is-family-code resume-item">Insurance Court of Finland</li>
           <li class="ml-4 resume-item"> 6.-7.2019, 2.-8.2020 and 9.-12.2020</li>
@@ -125,11 +138,11 @@ include("components/navbar.php")
       <!-- References start -->
       <div class="box background-1 is-radiusless">
         <h1 class="title is-family-code">References</h1>
-        <h2 class="subtitle is-family-code mt-5 mb-0 resume-subtitle">Insurance Court of Finland</h2>
+        <h2 class="subtitle is-family-code mt-5 mb-0 resume-subtitle">Metropolia University of Applied Sciences</h2>
         <ul>
-          <li class="pt-4 is-family-code resume-item">Paula Sorjonen</li>
-          <li class="ml-4 resume-item">Phone: 029 56 43251</li>
-          <li class="ml-4 resume-item">Email: paula.sorjonen@oikeus.fi</li>
+          <li class="pt-4 is-family-code resume-item">Juha Havukumpu</li>
+          <li class="ml-4 resume-item">Phone: +358 505004877</li>
+          <li class="ml-4 resume-item">Email: juha.havukumpu@metropolia.fi</li>
         </ul>
 
         <h2 class="subtitle is-family-code mt-5 mb-0 resume-subtitle">Gemalto Oy (Thales Group)</h2>
