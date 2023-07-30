@@ -33,12 +33,12 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: domains/aapokokko.fi/public_html/version2/
-          dangerous-clean-slate: true
           dry-run: true
           exclude: |
             **/.git*
             **/.git*/**
             **/node_modules/**
+            **/.vscode/**
             **/scss/**
             .gitignore
             README.md
