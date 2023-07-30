@@ -24,10 +24,5 @@
   "devDependencies": {
     "bulma": "^0.9.4",
     "node-sass": "^9.0.0"
-  },
-  "dependencies": {
-    "base64mime": "^0.0.3",
-    "js-oop": "^1.0.0",
-    "preloader": "^4.0.3"
   }
 }

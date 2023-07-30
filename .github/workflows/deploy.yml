@@ -6,7 +6,7 @@ permissions:
   contents: read
 
 jobs:
-  build and deploy:
+  build-and-deploy:
     timeout-minutes: 30
     runs-on: ubuntu-latest
 
@@ -23,16 +23,25 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Build main CSS
+        run: pnpm run css-build
+
       - name: Deploy project
         uses: SamKirkland/FTP-Deploy-Action@8a24039354ee91000cb948cb4a1dbdf1a1b94a3c # v4.3.4
         with:
           server: ftp.aapokokko.fi
-          username: ${{ secrets.ftp_username }}
-          password: ${{ secrets.ftp_password }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
           server-dir: domains/aapokokko.fi/public_html/version2/
           dangerous-clean-slate: true
           dry-run: true
           exclude: |
             **/.git*
             **/.git*/**
-            **/README.md
+            **/node_modules/**
+            **/scss/**
+            .gitignore
+            README.md
+            package.json
+            package-lock.json
+            pnpm-lock.yaml
