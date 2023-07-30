@@ -17,7 +17,6 @@ include(dirname(__FILE__).'/components/navbar.php')
       <p class='block is-size-5'>
         Aalto University and Metropolia graduate experienced in organization work, documentation and DevOps with studies in multiple fields. Certified in Github services and currently learning Full Stack development.
       </p>
-      <p>THIS IS A TEST PARAGRAPH</p>
       <!-- Call-to-action -->
       <div class='block'>
         <a href='#contact-info'><button class='button is-link has-text-weight-semibold'>Get in contact!</button></a>

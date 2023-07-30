@@ -1,6 +1,8 @@
 name: Deploy homepage
 
-on: workflow_dispatch
+on:
+  push:
+    branches: main
 
 permissions:
   contents: read
