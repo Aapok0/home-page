@@ -13,7 +13,7 @@ include(dirname(__FILE__).'/components/navbar.php')
   <div class='hero-body'>
     <div class='container hero-text box has-text-centered background-1'>
       <figure class="image is-256x256 m-auto">
-        <img class="is-rounded is-256x256" src="img/portrait.jpg" alt="Portrait">
+        <img class="is-rounded" height='256' width='256' src="img/portrait.jpg" alt="Portrait">
       </figure>
       <h1 class='title is-family-code'>About me</h1>
       <p class='block is-size-5 has-text-left'>
