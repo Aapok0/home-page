@@ -3,6 +3,9 @@ name: Deploy homepage
 on:
   workflow_run:
     workflows: [CodeQL]
+    types:
+      - completed
+
 
 permissions:
   contents: read
