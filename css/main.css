@@ -84,11 +84,12 @@ html {
   width: 100%;
   height: 100%; }
 
-.is-transparent {
-  opacity: 1; }
-
-.hero-text {
-  max-width: 50% !important; }
+.portrait {
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  margin-bottom: 1.5rem; }
 
 .resume-subtitle {
   border-bottom: 3px solid #364156; }
@@ -8029,3 +8030,15 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
   background-color: #11151C;
   padding: 3rem 1.5rem 6rem; }
+
+@media screen and (max-width: 768px) {
+  .hero-text {
+    max-width: 90% !important; } }
+
+@media screen and (min-width: 769px), print {
+  .hero-text {
+    max-width: 75% !important; } }
+
+@media screen and (min-width: 1024px) {
+  .hero-text {
+    max-width: 50% !important; } }

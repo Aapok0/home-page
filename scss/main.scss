@@ -2,10 +2,6 @@
 
 @charset "utf-8";
 
-@import '../node_modules/bulma/sass/utilities/initial-variables';
-@import '../node_modules/bulma/sass/utilities/functions';
-
-@import './responsive_mixins';
 @import './colors';
 @import './fonts';
 @import './typography';
@@ -37,13 +33,15 @@ html {
   width: 100%;
   height: 100%;
 }
-  
-.is-transparent {
-  opacity: 1;
-}
 
-.hero-text {
-  max-width: 50% !important;
+// ** ABOUT **
+
+.portrait {
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  margin-bottom: 1.5rem;
 }
 
 // ** RESUME **
@@ -125,4 +123,22 @@ html {
   background-size: cover;
 }
 
+// Import Bulma CSS here in order to not overwrite my own CSS above
+
 @import '../node_modules/bulma/bulma';
+
+// ** REQUIRES BULMA **
+
+.hero-text {
+  @include mobile {
+    max-width: 90% !important;
+  }
+
+  @include tablet {
+    max-width: 75% !important;
+  }
+
+  @include desktop {
+    max-width: 50% !important;
+  }
+}

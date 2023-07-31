@@ -2,7 +2,7 @@ name: Deploy homepage
 
 on:
   workflow_run:
-    workflows: [codeql]
+    workflows: [CodeQL]
 
 permissions:
   contents: read
