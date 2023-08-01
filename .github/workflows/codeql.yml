@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - js/*
+      - 'js/*'
 
 jobs:
   analyze:
