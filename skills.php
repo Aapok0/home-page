@@ -6,199 +6,135 @@ include(dirname(__FILE__).'/components/header.php')
 include(dirname(__FILE__).'/components/navbar.php')
 ?>
 
-<section class='section container'>
-  <h1 class='title has-text-centered is-size-1'>Skills</h1>
-  <!-- SKills start -->
-  <div class='columns box background-2 is-radiusless'>
-    <!-- First column start -->
-    <div class='column m-1'>
-      <!-- Web Development start -->
-      <h2 class='title has-text-centered'>Web Development</h2>
-      <div class='columns box m-0 background-1 is-radiusless'>
-        
-        <div class='column'>
-          <h3 class='is-size-4'>HTML</h3>
-          <svg class='skillbar bar_html' viewbox='0 0 100 100' width='200' height='200' data-percent='85'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_html' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>85</text>
+<!-- Hero banner, small introduction and call to action -->
+<section class='hero is-fullheight has-background'>
+  <img class='hero-background' src='img/background.jpeg' alt='Background image of Pältsan'>
+
+  <!-- Hero box start -->
+  <div class='hero-body'>
+    <div class='container box has-text-centered background-2'>
+      <h1 class='title is-family-code is-size-1'>Skills</h1>
+
+      <!-- Columns start -->
+      <div class='columns box background-2'>
+        <!-- First column start -->
+        <div class='column m-1'>
+
+          <!-- Development start -->
+          <h2 class='title is-family-code'>Development</h2>
+          <div class='is-flex-direction-column background-1'>
             
-          </svg>
-        </div>
+            <!-- Web development start -->
+            <h3 class='is-size-3'>Web development</h3>
+            <svg class='skillbar bar_web' viewbox='0 0 100 100' width='200' height='200' data-percent='60'>
+              <circle cx='50' cy='50' r='40' />
+              <text id='nm_web' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>60</text>
+            </svg>
 
-        <div class='column'>
-          <h3 class='is-size-4'>CSS</h3>
-          <svg class='skillbar bar_css' viewbox='0 0 100 100' width='200' height='200' data-percent='75'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_css' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>75</text>
-          </svg>
-        </div>
+            <div class='box background-1'>
+              <h3 class='is-size-4'>HTML</h3>
+              <progress class="progress is-warning" value="80" max="100">90%</progress>
+              <h3 class='is-size-4'>CSS</h3>
+              <progress class="progress is-warning" value="75" max="100">75%</progress>
+              <h3 class='is-size-4'>Javascript</h3>
+              <progress class="progress is-warning" value="60" max="100">60%</progress>
+              <h3 class='is-size-4'>PHP</h3>
+              <progress class="progress is-warning" value="15" max="100">15%</progress>
+              <h3 class='is-size-4'>React</h3>
+              <progress class="progress is-warning" value="35" max="100">45%</progress>
+            </div>
+            <!-- Web development end -->
 
-      </div><div class='columns box m-0 background-1 is-radiusless'>
+            <!-- Programming/scripting start -->
+            <h3 class='is-size-3'>Programming/scripting</h3>
+            <svg class='skillbar bar_prog' viewbox='0 0 100 100' width='200' height='200' data-percent='50'>
+              <circle cx='50' cy='50' r='40' />
+              <text id='nm_prog' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>50</text>
+            </svg>
 
-        <div class='column'>
-          <h3 class='is-size-4'>SCSS</h3>
-          <svg class='skillbar bar_scss' viewbox='0 0 100 100' width='200' height='200' data-percent='40'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_scss' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>40</text>
-          </svg>
+            <div class='box background-1'>
+              <h3 class='is-size-4'>Python</h3>
+              <progress class="progress is-warning" value="70" max="100">70%</progress>
+              <h3 class='is-size-4'>C</h3>
+              <progress class="progress is-warning" value="25" max="100">25%</progress>
+              <h3 class='is-size-4'>Shell script</h3>
+              <progress class="progress is-warning" value="50" max="100">50%</progress>
+            </div>
+            <!-- Programming/scripting end -->
+          
+          </div>
+          <!-- Development end -->
         </div>
+        <!-- First column end -->
 
-        <div class='column'>
-          <h3 class='is-size-4'>PHP</h3>
-          <svg class='skillbar bar_php' viewbox='0 0 100 100' width='200' height='200' data-percent='70'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_php' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>70</text>
-          </svg>
+        <!-- Second column start -->
+        <div class='column m-1'>
+          <!-- Services and tools start -->
+          <h2 class='title is-family-code'>Services and tools</h2>
+          <div class='is-flex-direction-column background-1'>
+            
+            <!-- Cloud start -->
+            <h3 class='is-size-3'>Cloud</h3>
+            <svg class='skillbar bar_cloud' viewbox='0 0 100 100' width='200' height='200' data-percent='55'>
+              <circle cx='50' cy='50' r='40' />
+              <text id='nm_cloud' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>55</text>
+            </svg>
+
+            <div class='box background-1'>
+              <h3 class='is-size-4'>Azure</h3>
+              <progress class="progress is-warning" value="65" max="100">65%</progress>
+              <h3 class='is-size-4'>AWS</h3>
+              <progress class="progress is-warning" value="10" max="100">10%</progress>
+            </div>
+            <!-- Cloud end -->
+
+            <!-- IaC start -->
+            <h3 class='is-size-3'>Infrastructure as Code</h3>
+            <svg class='skillbar bar_iac' viewbox='0 0 100 100' width='200' height='200' data-percent='45'>
+              <circle cx='50' cy='50' r='40' />
+              <text id='nm_iac' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>45</text>
+            </svg>
+
+            <div class='box background-1'>
+              <h3 class='is-size-4'>Ansible</h3>
+              <progress class="progress is-warning" value="55" max="100">55%</progress>
+              <h3 class='is-size-4'>Terraform</h3>
+              <progress class="progress is-warning" value="20" max="100">20%</progress>
+            </div>
+            <!-- IaC end -->
+
+            <!-- Tools start -->
+            <h3 class='is-size-3'>Terminal tools</h3>
+            <svg class='skillbar bar_term' viewbox='0 0 100 100' width='200' height='200' data-percent='50'>
+              <circle cx='50' cy='50' r='40' />
+              <text id='nm_term' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>45</text>
+            </svg>
+
+            <div class='box background-1'>
+              <h3 class='is-size-4'>Git</h3>
+              <progress class="progress is-warning" value="60" max="100">60%</progress>
+              <h3 class='is-size-4'>Vim/Neovim</h3>
+              <progress class="progress is-warning" value="65" max="100">65%</progress>
+              <h3 class='is-size-4'>tmux</h3>
+              <progress class="progress is-warning" value="45" max="100">45%</progress>
+            </div>
+            <!-- Tools end -->
+          
+          </div>
+          <!-- Services and tools end -->
         </div>
-      
+        <!-- Second column end -->
       </div>
-      <!-- Web Development end -->
-      
-      <!-- Programming start -->
-      <h2 class='title mt-5 has-text-centered'>Programming</h2>
-      <div class='columns box m-0 background-1 is-radiusless'>
+      <!-- Columns end -->
 
-      <div class='column'>
-          <h3 class='is-size-4'>C</h3>
-          <svg class='skillbar bar_c' viewbox='0 0 100 100' width='200' height='200' data-percent='60'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_c' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>60</text>
-          </svg>
-        </div>
-
-        <div class='column'>
-          <h3 class='is-size-4'>Python</h3>
-          <svg class='skillbar bar_py' viewbox='0 0 100 100' width='200' height='200' data-percent='80'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_py' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>80</text>
-          </svg>
-        </div>
-
-      </div><div class='columns box m-0 background-1 is-radiusless'>
-
-        <div class='column'>
-          <h3 class='is-size-4'>Javascript</h3>
-          <svg class='skillbar bar_js' viewbox='0 0 100 100' width='200' height='200' data-percent='40'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_js' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>40</text>
-          </svg>
-        </div>
-
-        <div class='column'>
-          <h3 class='is-size-4'>Matlab</h3>
-          <svg class='skillbar bar_mat' viewbox='0 0 100 100' width='200' height='200' data-percent='30'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_mat' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>30</text>
-          </svg>
-        </div>
-
+      <!-- Button to resume -->
+      <div class='block has-text-centered'>
+        <a href='interests.php'><button class='button is-link has-text-weight-semibold'>Read about my interests</button></a>
       </div>
-      <!-- Programming end -->
 
-        <!-- Server start -->
-      <h2 class='title mt-5 has-text-centered'>Server</h2>
-      <div class='columns box m-0 background-1 is-radiusless'>
-        
-        <div class='column'>
-          <h3 class='is-size-4'>SQL</h3>
-          <svg class='skillbar bar_sql' viewbox='0 0 100 100' width='200' height='200' data-percent='60'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_sql' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>60</text>
-          </svg>
-        </div>
-
-      </div>
-      <!-- Server end -->
     </div>
-    <!-- First column end -->
-
-    <!-- Second column start -->
-    <div class='column m-1'>
-      <!-- Professional skills start -->
-      <h2 class='title has-text-centered'>Professional skills</h2>
-      <div class='columns box m-0 background-1 is-radiusless'>
-
-        <div class='column'>
-          <h3 class='is-size-4'>Teamwork</h3>
-          <svg class='skillbar bar_team' viewbox='0 0 100 100' width='200' height='200' data-percent='80'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_team' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>80</text>
-          </svg>
-        </div>
-
-        <div class='column'>
-          <h3 class='is-size-4'>Documentation</h3>
-          <svg class='skillbar bar_doc' viewbox='0 0 100 100' width='200' height='200' data-percent='90'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_doc' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>90</text>
-          </svg>
-        </div>
-
-      </div><div class='columns box m-0 background-1 is-radiusless'>
-
-        <div class='column'>
-            <h3 class='is-size-4'>Scrum</h3>
-            <svg class='skillbar bar_scr' viewbox='0 0 100 100' width='200' height='200' data-percent='40'>
-              <circle cx='50' cy='50' r='40' />
-              <text id='nm_scr' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>40</text>
-            </svg>
-          </div>
-
-          <div class='column'>
-            <h3 class='is-size-4'>Leadership</h3>
-            <svg class='skillbar bar_ldr' viewbox='0 0 100 100' width='200' height='200' data-percent='70'>
-              <circle cx='50' cy='50' r='40' />
-              <text id='nm_ldr' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>70</text>
-            </svg>
-          </div>
-
-        </div>
-      <!-- Professional skills end -->
-      
-      <!-- Academic skills start -->
-      <h2 class='title mt-5 has-text-centered'>Academic skills</h2>
-      <div class='columns box m-0 background-1 is-radiusless'>
-
-      <div class='column'>
-          <h3 class='is-size-4'>Health technology</h3>
-          <svg class='skillbar bar_ht' viewbox='0 0 100 100' width='200' height='200' data-percent='70'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_ht' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>70</text>
-          </svg>
-        </div>
-
-        <div class='column'>
-          <h3 class='is-size-4'>Circuit analysis</h3>
-          <svg class='skillbar bar_ca' viewbox='0 0 100 100' width='200' height='200' data-percent='65'>
-            <circle cx='50' cy='50' r='40' />
-            <text id='nm_ca' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>65</text>
-          </svg>
-        </div>
-
-      </div><div class='columns box m-0 background-1 is-radiusless'>
-
-        <div class='column'>
-            <h3 class='is-size-4'>Signal analysis</h3>
-            <svg class='skillbar bar_sa' viewbox='0 0 100 100' width='200' height='200' data-percent='55'>
-              <circle cx='50' cy='50' r='40' />
-              <text id='nm_sa' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>55</text>
-            </svg>
-          </div>
-
-          <div class='column'>
-            <h3 class='is-size-4'>Presentation</h3>
-            <svg class='skillbar bar_pr' viewbox='0 0 100 100' width='200' height='200' data-percent='90'>
-              <circle cx='50' cy='50' r='40' />
-              <text id='nm_pr' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>90</text>
-            </svg>
-          </div>
-
-        </div>
-      <!-- Academic skills end -->
-    </div>
-    <!-- Second column end -->
   </div>
-  <!-- Skills end -->
+  <!-- Hero box end -->
 </section>
 
 <script src='js/progressCircle.js'></script>

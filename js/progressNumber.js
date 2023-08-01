@@ -17,21 +17,8 @@ function increaseNumber(i, lastnm, el) {
   }
 }
 
-animateNumber('nm_html');
-animateNumber('nm_css');
-animateNumber('nm_scss');
-animateNumber('nm_php');
-animateNumber('nm_c');
-animateNumber('nm_py');
-animateNumber('nm_js');
-animateNumber('nm_mat');
-animateNumber('nm_sql');
-
-animateNumber('nm_team');
-animateNumber('nm_doc');
-animateNumber('nm_scr');
-animateNumber('nm_ldr');
-animateNumber('nm_ht');
-animateNumber('nm_ca');
-animateNumber('nm_sa');
-animateNumber('nm_pr');
+animateNumber('nm_web');
+animateNumber('nm_prog');
+animateNumber('nm_cloud');
+animateNumber('nm_iac');
+animateNumber('nm_term');

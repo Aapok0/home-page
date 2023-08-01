@@ -14,6 +14,7 @@ include(dirname(__FILE__).'/components/navbar.php')
   <div class='hero-body'>
     <div class='container box background-2'>
       <h1 class='title is-family-code has-text-centered is-size-1'>Resume</h1>
+
       <!-- Resume in two columns with nested titles -->
       <!-- Columns start -->
       <div class='columns'>
@@ -198,6 +199,7 @@ include(dirname(__FILE__).'/components/navbar.php')
             </ul>
           </div>
           <!-- References end -->
+
         </div>
         <!-- Second column end -->
       </div>
@@ -205,7 +207,7 @@ include(dirname(__FILE__).'/components/navbar.php')
 
       <!-- Button to resume -->
       <div class='block has-text-centered'>
-        <a href='skills.php'><button class='button is-link has-text-weight-semibold'>See my skills</button></a>
+        <a href='skills.php'><button class='button is-link has-text-weight-semibold'>Check my skills</button></a>
       </div>
 
     </div>
