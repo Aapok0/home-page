@@ -8,8 +8,8 @@ include(dirname(__FILE__).'/components/navbar.php')
 
 <!-- Hero banner and about me section -->
 <section class='hero is-fullheight has-background'>
-  <img class='hero-background' src='img/background.jpeg' alt='Background image of Pältsan'>
-  
+  <img class='hero-background' src='img/background-2.jpg' alt='Background image of Pältsan'>
+
   <!-- Hero box start -->
   <div class='hero-body'>
     <div class='container hero-text box has-text-centered background-1'>

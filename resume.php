@@ -6,9 +6,9 @@ include(dirname(__FILE__).'/components/header.php')
 include(dirname(__FILE__).'/components/navbar.php')
 ?>
 
-<!-- Hero banner, small introduction and call to action -->
+<!-- Hero banner and resume in two columns -->
 <section class='hero is-fullheight has-background'>
-  <img class='hero-background' src='img/background.jpeg' alt='Background image of Pältsan'>
+  <img class='hero-background' src='img/background-3.jpg' alt='Background image of Pältsan'>
 
   <!-- Hero box start -->
   <div class='hero-body'>
