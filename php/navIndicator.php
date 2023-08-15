@@ -8,7 +8,7 @@
   $pos5 = strrpos($url, 'interests.php');
 
   // Putting html into variables
-  $home = '<a class="navbar-item is-flex-direction-column is-justify-content-space-around" href="index.php"><img class="mb-1" src="img/home.png" alt="Home">Home</a>';
+  $home = '<a class="navbar-item is-flex-direction-column is-justify-content-space-around" href="./"><img class="mb-1" src="img/home.png" alt="Home">Home</a>';
   $about = '<a class="navbar-item is-flex-direction-column is-justify-content-space-around" href="about.php"><img class="mb-1" src="img/about.png" alt="About">About</a>';
   $resume = '<a class="navbar-item is-flex-direction-column is-justify-content-space-around" href="resume.php"><img class="mb-1" src="img/resume.png" alt="Resume">Resume</a>';
   $skills = '<a class="navbar-item is-flex-direction-column is-justify-content-space-around" href="skills.php"><img class="mb-1" src="img/skills.png" alt="Skills">Skills</a>';
@@ -17,7 +17,7 @@
 
   // Class that adds indicator to the page you are on
   if ($pos1 != false) {
-    echo '<a class="navbar-item is-open is-flex-direction-column is-justify-content-space-around has-text-weight-bold" href="index.php"><img class="mb-1" src="img/home-dark.png" alt="Home">Home</a>';
+    echo '<a class="navbar-item is-open is-flex-direction-column is-justify-content-space-around has-text-weight-bold" href="./"><img class="mb-1" src="img/home-dark.png" alt="Home">Home</a>';
     echo $about;
     echo $resume;
     echo $skills;

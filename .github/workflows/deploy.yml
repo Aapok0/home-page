@@ -39,7 +39,7 @@ jobs:
           server: ftp.aapokokko.fi
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: domains/aapokokko.fi/public_html/v2/
+          server-dir: domains/aapokokko.fi/public_html/
           exclude: |
             **/.git*
             **/.git*/**
