@@ -46,7 +46,7 @@ jobs:
             **/node_modules/**
             **/.vscode/**
             **/scss/**
-            .gitignore
+            **/v1/**
             README.md
             package.json
             package-lock.json

@@ -13,7 +13,7 @@
   $resume = '<a class="navbar-item is-flex-direction-column is-justify-content-space-around" href="resume.php"><img class="mb-1" src="img/resume.png" alt="Resume">Resume</a>';
   $skills = '<a class="navbar-item is-flex-direction-column is-justify-content-space-around" href="skills.php"><img class="mb-1" src="img/skills.png" alt="Skills">Skills</a>';
   $interests = '<a class="navbar-item is-flex-direction-column is-justify-content-space-around" href="interests.php"><img class="mb-1" src="img/interests.png" alt="Interests">Interests</a>';
-  $version1 = '<a class="navbar-item is-flex-direction-column is-justify-content-space-around" href="../index.php"><img class="mb-1" src="img/home.png" alt="Home-Version 1">Home v1</a>';
+  $version1 = '<a class="navbar-item is-flex-direction-column is-justify-content-space-around" href="v1/index.php"><img class="mb-1" src="img/home.png" alt="Home-Version 1">Home v1</a>';
 
   // Class that adds indicator to the page you are on
   if ($pos1 != false) {
