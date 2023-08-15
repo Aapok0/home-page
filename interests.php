@@ -18,7 +18,7 @@ include(dirname(__FILE__).'/components/navbar.php')
       <!-- Development/IT -->
       <div class='interest-flex-reverse'>
         <div class='interest-item mb-3'>
-          <img src='img/development-800-600.jpg' alt='Terminal screen'>
+          <img src='img/development.jpg' alt='Terminal screen'>
         </div>
         <div class='interest-item mb-3'>
           <h2 class='subtitle is-size-5 is-size-6-mobile is-family-code'>Development/IT</h2>
@@ -55,14 +55,14 @@ include(dirname(__FILE__).'/components/navbar.php')
           </ul>
         </div>
         <div class='interest-item mb-3'>
-          <img src='img/exercise-800-600.jpg' alt='Bouldering in a gym'>
+          <img src='img/exercise.jpg' alt='Bouldering in a gym'>
         </div>
       </div>
 
       <!-- Hiking -->
       <div class='interest-flex-reverse'>
         <div class='interest-item mb-3'>
-          <img src='img/hiking-800-600.jpg' alt='Korvatunturi'>
+          <img src='img/hiking.jpg' alt='Korvatunturi'>
         </div>
         <div class='interest-item mb-3'>
           <h2 class='subtitle is-size-5 is-size-6-mobile is-family-code'>Hiking</h2>
@@ -98,14 +98,14 @@ include(dirname(__FILE__).'/components/navbar.php')
           </ul>
         </div>
         <div class='interest-item mb-3'>
-          <img src='img/cooking-1-800-600.jpg' alt='Pizza'>
+          <img src='img/cooking.jpg' alt='Pizza'>
         </div>
       </div>
 
       <!-- Music -->
       <div class='interest-flex-reverse'>
         <div class='interest-item mb-3'>
-          <img src='img/music-800-600.jpg' alt='Playing bass'>
+          <img src='img/music.jpg' alt='Playing bass'>
         </div>
         <div class='interest-item mb-3'>
           <h2 class='subtitle is-size-5 is-size-6-mobile is-family-code'>Music</h2>
@@ -142,14 +142,14 @@ include(dirname(__FILE__).'/components/navbar.php')
           </ul>
         </div>
         <div class='interest-item mb-3'>
-          <img src='img/reading-800-600.jpg' alt='Bookshelf'>
+          <img src='img/reading.jpg' alt='Bookshelf'>
         </div>
       </div>
 
       <!-- Video games -->
       <div class='interest-flex-reverse'>
         <div class='interest-item mb-3'>
-          <img src='img/video-games-1-800-600.jpg' alt='Video games consoles'>
+          <img src='img/video-games.jpg' alt='Video games consoles'>
         </div>
         <div class='interest-item mb-3'>
           <h2 class='subtitle is-size-5 is-size-6-mobile is-family-code'>Video games</h2>
