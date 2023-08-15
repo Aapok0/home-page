@@ -69,6 +69,9 @@
 html {
   scroll-behavior: smooth; }
 
+.is-transparent {
+  opacity: 0.95; }
+
 .is-open {
   background-color: #D66853;
   color: #11151C !important; }
@@ -8033,12 +8036,60 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 @media screen and (max-width: 768px) {
   .hero-text {
-    max-width: 90% !important; } }
+    max-width: 92% !important; } }
 
 @media screen and (min-width: 769px), print {
   .hero-text {
-    max-width: 75% !important; } }
+    max-width: 86% !important; } }
 
 @media screen and (min-width: 1024px) {
   .hero-text {
-    max-width: 50% !important; } }
+    max-width: 80% !important; } }
+
+@media screen and (min-width: 1216px) {
+  .hero-text {
+    max-width: 70% !important; } }
+
+@media screen and (min-width: 1408px) {
+  .hero-text {
+    max-width: 60% !important; } }
+
+@media screen and (max-width: 768px) {
+  svg.skillbar {
+    width: 150px;
+    height: 150px; } }
+
+@media screen and (min-width: 769px), print {
+  svg.skillbar {
+    width: 200px;
+    height: 200px; } }
+
+@media screen and (max-width: 1023px) {
+  .interest-flex {
+    display: flex !important;
+    flex-wrap: wrap !important; } }
+
+@media screen and (min-width: 1024px) {
+  .interest-flex {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important; } }
+
+@media screen and (max-width: 1023px) {
+  .interest-flex-reverse {
+    display: flex !important;
+    flex-wrap: wrap-reverse !important; } }
+
+@media screen and (min-width: 1024px) {
+  .interest-flex-reverse {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important; } }
+
+@media screen and (max-width: 1023px) {
+  .interest-item {
+    width: 96%; } }
+
+@media screen and (min-width: 1024px) {
+  .interest-item {
+    width: 48%; } }

@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.is-transparent {
+  opacity: 0.95
+}
+
 // ** NAVIGATION **
 
 .is-open {
@@ -73,6 +77,10 @@ html {
   transform: rotate(90deg);
 }
 
+// ** INTERESTS **
+
+
+
 // ** FOOTER **
 
 .github {
@@ -131,14 +139,70 @@ html {
 
 .hero-text {
   @include mobile {
-    max-width: 90% !important;
+    max-width: 92% !important;
   }
 
   @include tablet {
-    max-width: 75% !important;
+    max-width: 86% !important;
   }
 
   @include desktop {
-    max-width: 50% !important;
+    max-width: 80% !important;
+  }
+
+  @include widescreen {
+    max-width: 70% !important;
+  }
+
+  @include fullhd {
+    max-width: 60% !important;
+  }
+}
+
+svg.skillbar {
+  @include mobile {
+    width: 150px;
+    height: 150px;
+  }
+
+  @include tablet {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.interest-flex {
+  @include touch {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+
+  @include desktop {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+}
+
+.interest-flex-reverse {
+  @include touch {
+    display: flex !important;
+    flex-wrap: wrap-reverse !important;
+  }
+  
+  @include desktop {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+}
+
+.interest-item {
+  @include touch {
+    width: 96%;
+  }
+
+  @include desktop {
+    width: 48%;
   }
 }

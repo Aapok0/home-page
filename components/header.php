@@ -7,7 +7,7 @@ include_once(dirname(__FILE__).'/../config/chttps.php');
     <!-- META INFROMATION -->
     <title>Curriculum Vitae - Aapo Kokko</title>
     <meta charset='UTF-8'>
-    <meta name='description' content='Curriculum vitae and home page for Aapo Kokko'>
+    <meta name='description' content='Curriculum vitae and homepage for Aapo Kokko'>
     <meta name='author' content='Aapo Kokko'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
