@@ -1,2 +1,8 @@
-# Ignore node moduels directory
+# Ignore node modules directory
 node_modules/
+
+# Ignore VS Code configs
+.vscode/
+
+# Ignore css directory (css is built before deploy)
+css/
