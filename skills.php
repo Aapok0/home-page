@@ -23,7 +23,7 @@ include(dirname(__FILE__).'/components/navbar.php')
           <!-- Development start -->
           <h2 class='title is-size-3 is-size-4-mobile is-family-code'>Development</h2>
           <div class='is-flex-direction-column background-1'>
-            
+
             <!-- Web development start -->
             <h3 class='subtitle is-size-3-widescreen is-size-4-desktop is-size-4-mobile'>Web development</h3>
             <svg class='skillbar bar_web' viewbox='0 0 100 100' data-percent='60'>
@@ -61,7 +61,7 @@ include(dirname(__FILE__).'/components/navbar.php')
               <progress class="progress is-warning" value="50" max="100">50%</progress>
             </div>
             <!-- Programming/scripting end -->
-          
+
           </div>
           <!-- Development end -->
         </div>
@@ -72,7 +72,7 @@ include(dirname(__FILE__).'/components/navbar.php')
           <!-- Services and tools start -->
           <h2 class='title is-size-3 is-size-4-mobile is-family-code'>Services and tools</h2>
           <div class='is-flex-direction-column background-1'>
-            
+
             <!-- Cloud start -->
             <h3 class='subtitle is-size-3-widescreen is-size-4-desktop is-size-4-mobile'>Cloud</h3>
             <svg class='skillbar bar_cloud' viewbox='0 0 100 100' width='200' height='200' data-percent='55'>
@@ -119,7 +119,7 @@ include(dirname(__FILE__).'/components/navbar.php')
               <progress class="progress is-warning" value="45" max="100">45%</progress>
             </div>
             <!-- Tools end -->
-          
+
           </div>
           <!-- Services and tools end -->
         </div>

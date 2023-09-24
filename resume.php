@@ -51,6 +51,10 @@ include(dirname(__FILE__).'/components/navbar.php')
               <li class='pt-4 is-family-code resume-item'><a href='https://learn.microsoft.com/api/credentials/share/en-us/AapoKokko-3945/48DD3F6B53D95961'>AZ-104 - Azure Administrator Associate</a></li>
               <li class='ml-4 resume-item'>Valid: 7.2023 - 7.2024</li>
             </ul>
+            <ul class='is-size-5-widescreen is-size-6-desktop is-size-7-mobile'>
+              <li class='pt-4 is-family-code resume-item'><a href='https://learn.microsoft.com/api/credentials/share/en-us/AapoKokko-3945/24E4077128CDE29A?sharingId=34159981622366F0'>AZ-305 - Azure Solutions Architect Expert</a></li>
+              <li class='ml-4 resume-item'>Valid: 9.2023 - 9.2024</li>
+            </ul>
 
             <h2 class='subtitle is-size-5 is-size-6-mobile is-family-code mt-5 mb-0 resume-subtitle'>GitHub</h2>
             <ul class='is-size-5-widescreen is-size-6-desktop is-size-7-mobile'>
@@ -112,7 +116,7 @@ include(dirname(__FILE__).'/components/navbar.php')
           <!-- Voluntary work end -->
         </div>
         <!-- First column end -->
-        
+
         <!-- Second column start -->
         <div class='column background-2'>
           <!-- Work experience start -->
@@ -131,14 +135,14 @@ include(dirname(__FILE__).'/components/navbar.php')
               <li class='ml-4 resume-item'>11.2022 - 5.2023</li>
               <li class='ml-4 resume-item'>Studying for and earning Github certificates during the first two months. Doing system administration and operations, service setup, management and updates, monitoring and problem solving.</li>
             </ul>
-            
+
             <h2 class='subtitle is-size-5 is-size-6-mobile is-family-code mt-5 mb-0 resume-subtitle'>Student assistant</h2>
             <ul class='is-size-5-widescreen is-size-6-desktop is-size-7-mobile'>
               <li class='pt-4 is-family-code resume-item'>Metropolia University of Applied Sciences</li>
               <li class='ml-4 resume-item'>9.2021 - 12.2021</li>
               <li class='ml-4 resume-item'>Organizing a mathematics and physics workshop for first year student to work on course assignments.</li>
             </ul>
-            
+
             <h2 class='subtitle is-size-5 is-size-6-mobile is-family-code mt-5 mb-0 resume-subtitle'>Office Secretary</h2>
             <ul class='is-size-5-widescreen is-size-6-desktop is-size-7-mobile'>
               <li class='pt-4 is-family-code resume-item'>Insurance Court of Finland</li>
