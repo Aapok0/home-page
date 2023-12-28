@@ -1,7 +1,8 @@
-name: Deploy homepage
+name: Deploy homepage with SSH
 
 on:
   workflow_run:
+    branches: [main]
     workflows: [CodeQL]
     types:
       - completed
@@ -33,21 +34,15 @@ jobs:
       - name: Build main CSS
         run: pnpm run css-build
 
-      - name: Deploy project
-        uses: SamKirkland/FTP-Deploy-Action@8a24039354ee91000cb948cb4a1dbdf1a1b94a3c # v4.3.4
+      - name: Setup SSH agent
+        uses: webfactory/ssh-agent@d4b9b8ff72958532804b70bbe600ad43b36d5f2e # v.0.8.0
         with:
-          server: ftp.aapokokko.fi
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: domains/aapokokko.fi/public_html/
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
-            **/.vscode/**
-            **/scss/**
-            **/v1/**
-            README.md
-            package.json
-            package-lock.json
-            pnpm-lock.yaml
+          ssh-private-key: ${{ secrets.PRIVATE_KEY }}
+
+      - name: Deploy project
+        run: |
+          rsync -aiv --exclude-from=exclude.txt ./ ${{ secrets.VM_USER }}@${{ secrets.VM_IP }}:/var/www/html/
+
+      - name: Restart Nginx
+        run: |
+          ssh ${{ secrets.VM_USER }}@${{ secrets.VM_IP }} sudo systemctl restart nginx.service
