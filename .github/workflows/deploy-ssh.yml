@@ -2,7 +2,7 @@ name: Deploy homepage with SSH
 
 on:
   workflow_run:
-    branches: [main]
+    branches: [invalid]
     workflows: [CodeQL]
     types:
       - completed

@@ -1,11 +1,11 @@
 name: Deploy homepage with ftp
 
-#on:
-#  workflow_run:
-#    branches: [main]
-#    workflows: [CodeQL]
-#    types:
-#      - completed
+on:
+  workflow_run:
+    branches: [invalid]
+    workflows: [CodeQL]
+    types:
+      - completed
 
 permissions:
   contents: read
