@@ -2,6 +2,7 @@
 - node_modules
 - .vscode
 - scss
+- .rsync-filter
 - README.md
 - package.json
 - package-lock.json
