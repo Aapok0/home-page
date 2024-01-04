@@ -1,0 +1,8 @@
+- .git*
+- node_modules
+- .vscode
+- scss
+- README.md
+- package.json
+- package-lock.json
+- pnpm-lock.yaml
