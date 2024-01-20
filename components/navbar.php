@@ -2,7 +2,7 @@
 <nav class='navbar' role='navigation' aria-label='main navigation'>
   <div class='container'>
     <div class='navbar-brand'>
-      <a href='index.php'>
+      <a href='./'>
         <img src='img/logo.png' alt='Logo' width='90' height='90'>
       </a>
 
