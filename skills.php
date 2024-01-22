@@ -39,7 +39,7 @@ include(dirname(__FILE__).'/components/navbar.php')
               <h3 class='is-size-5 is-size-6-mobile'>Javascript</h3>
               <progress class="progress is-warning" value="60" max="100">60%</progress>
               <h3 class='is-size-5 is-size-6-mobile'>PHP</h3>
-              <progress class="progress is-warning" value="15" max="100">15%</progress>
+              <progress class="progress is-warning" value="10" max="100">10%</progress>
               <h3 class='is-size-5 is-size-6-mobile'>React</h3>
               <progress class="progress is-warning" value="35" max="100">45%</progress>
             </div>
@@ -90,24 +90,24 @@ include(dirname(__FILE__).'/components/navbar.php')
 
             <!-- IaC start -->
             <h3 class='subtitle is-size-3-widescreen is-size-4-desktop is-size-4-mobile'>Infrastructure as Code</h3>
-            <svg class='skillbar bar_iac' viewbox='0 0 100 100' width='200' height='200' data-percent='45'>
+            <svg class='skillbar bar_iac' viewbox='0 0 100 100' width='200' height='200' data-percent='65'>
               <circle cx='50' cy='50' r='40' />
-              <text id='nm_iac' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>45</text>
+              <text id='nm_iac' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>65</text>
             </svg>
 
             <div class='box background-1'>
               <h3 class='is-size-5 is-size-6-mobile'>Ansible</h3>
-              <progress class="progress is-warning" value="55" max="100">55%</progress>
+              <progress class="progress is-warning" value="65" max="100">55%</progress>
               <h3 class='is-size-5 is-size-6-mobile'>Terraform</h3>
-              <progress class="progress is-warning" value="40" max="100">40%</progress>
+              <progress class="progress is-warning" value="65" max="100">40%</progress>
             </div>
             <!-- IaC end -->
 
             <!-- Tools start -->
             <h3 class='subtitle is-size-3-widescreen is-size-4-desktop is-size-4-mobile'>Terminal tools</h3>
-            <svg class='skillbar bar_term' viewbox='0 0 100 100' width='200' height='200' data-percent='50'>
+            <svg class='skillbar bar_term' viewbox='0 0 100 100' width='200' height='200' data-percent='55'>
               <circle cx='50' cy='50' r='40' />
-              <text id='nm_term' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>45</text>
+              <text id='nm_term' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>55</text>
             </svg>
 
             <div class='box background-1'>
