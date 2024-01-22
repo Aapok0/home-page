@@ -62,6 +62,36 @@ include(dirname(__FILE__).'/components/navbar.php')
             </div>
             <!-- Programming/scripting end -->
 
+            <!-- IaC start -->
+            <h3 class='subtitle is-size-3-widescreen is-size-4-desktop is-size-4-mobile'>Infrastructure as Code</h3>
+            <svg class='skillbar bar_iac' viewbox='0 0 100 100' width='200' height='200' data-percent='65'>
+              <circle cx='50' cy='50' r='40' />
+              <text id='nm_iac' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>65</text>
+            </svg>
+
+            <div class='box background-1'>
+              <h3 class='is-size-5 is-size-6-mobile'>Ansible</h3>
+              <progress class="progress is-warning" value="65" max="100">65%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>Terraform</h3>
+              <progress class="progress is-warning" value="65" max="100">65%</progress>
+            </div>
+            <!-- IaC end -->
+
+            <!-- UI/UX start -->
+            <h3 class='subtitle is-size-3-widescreen is-size-4-desktop is-size-4-mobile'>UI/UX</h3>
+            <svg class='skillbar bar_prog' viewbox='0 0 100 100' width='200' height='200' data-percent='25'>
+              <circle cx='50' cy='50' r='40' />
+              <text id='nm_prog' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>25</text>
+            </svg>
+
+            <div class='box background-1'>
+              <h3 class='is-size-5 is-size-6-mobile'>Qt</h3>
+              <progress class="progress is-warning" value="70" max="100">35%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>Figma</h3>
+              <progress class="progress is-warning" value="25" max="100">15%</progress>
+            </div>
+            <!-- UI/UX end -->
+
           </div>
           <!-- Development end -->
         </div>
@@ -88,20 +118,36 @@ include(dirname(__FILE__).'/components/navbar.php')
             </div>
             <!-- Cloud end -->
 
-            <!-- IaC start -->
-            <h3 class='subtitle is-size-3-widescreen is-size-4-desktop is-size-4-mobile'>Infrastructure as Code</h3>
-            <svg class='skillbar bar_iac' viewbox='0 0 100 100' width='200' height='200' data-percent='65'>
+            <!-- Services start -->
+            <h3 class='subtitle is-size-3-widescreen is-size-4-desktop is-size-4-mobile'>Services</h3>
+            <svg class='skillbar bar_cloud' viewbox='0 0 100 100' width='200' height='200' data-percent='35'>
               <circle cx='50' cy='50' r='40' />
-              <text id='nm_iac' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>65</text>
+              <text id='nm_cloud' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>35</text>
             </svg>
 
             <div class='box background-1'>
-              <h3 class='is-size-5 is-size-6-mobile'>Ansible</h3>
-              <progress class="progress is-warning" value="65" max="100">55%</progress>
-              <h3 class='is-size-5 is-size-6-mobile'>Terraform</h3>
-              <progress class="progress is-warning" value="65" max="100">40%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>Nginx</h3>
+              <progress class="progress is-warning" value="45" max="100">45%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>GitHub</h3>
+              <progress class="progress is-warning" value="65" max="100">65%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>GitLab</h3>
+              <progress class="progress is-warning" value="25" max="100">30%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>Bitbucket</h3>
+              <progress class="progress is-warning" value="35" max="100">40%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>Jenkins</h3>
+              <progress class="progress is-warning" value="10" max="100">10%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>Artifactory</h3>
+              <progress class="progress is-warning" value="40" max="100">40%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>Hashicorp Vault</h3>
+              <progress class="progress is-warning" value="35" max="100">35%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>Jira</h3>
+              <progress class="progress is-warning" value="20" max="100">20%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>Confluence</h3>
+              <progress class="progress is-warning" value="35" max="100">35%</progress>
+              <h3 class='is-size-5 is-size-6-mobile'>Zabbix</h3>
+              <progress class="progress is-warning" value="30" max="100">30%</progress>
             </div>
-            <!-- IaC end -->
+            <!-- Services end -->
 
             <!-- Tools start -->
             <h3 class='subtitle is-size-3-widescreen is-size-4-desktop is-size-4-mobile'>Terminal tools</h3>
