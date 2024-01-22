@@ -2,7 +2,7 @@ name: Deploy homepage with ftp
 
 on:
   workflow_run:
-    branches: [invalid]
+    branches: [webhotel]
     workflows: [CodeQL]
     types:
       - completed
