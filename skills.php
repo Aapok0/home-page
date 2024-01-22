@@ -86,7 +86,7 @@ include(dirname(__FILE__).'/components/navbar.php')
 
             <div class='box background-1'>
               <h3 class='is-size-5 is-size-6-mobile'>Qt</h3>
-              <progress class="progress is-warning" value="70" max="100">35%</progress>
+              <progress class="progress is-warning" value="35" max="100">35%</progress>
               <h3 class='is-size-5 is-size-6-mobile'>Figma</h3>
               <progress class="progress is-warning" value="25" max="100">15%</progress>
             </div>
