@@ -2,7 +2,9 @@ name: CodeQL
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - webhotel
     paths-ignore:
       - '.github/**'
 
