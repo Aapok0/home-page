@@ -151,18 +151,18 @@ include(dirname(__FILE__).'/components/navbar.php')
 
             <!-- Tools start -->
             <h3 class='subtitle is-size-3-widescreen is-size-4-desktop is-size-4-mobile'>Terminal tools</h3>
-            <svg class='skillbar bar_term' viewbox='0 0 100 100' width='200' height='200' data-percent='55'>
+            <svg class='skillbar bar_term' viewbox='0 0 100 100' width='200' height='200' data-percent='65'>
               <circle cx='50' cy='50' r='40' />
-              <text id='nm_term' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>55</text>
+              <text id='nm_term' class='skilltext' x='50' y='-50' alignment-baseline='middle' stroke-width='1px' stroke='#F7F8F7' text-anchor='middle'>65</text>
             </svg>
 
             <div class='box background-1'>
               <h3 class='is-size-5 is-size-6-mobile'>Git</h3>
-              <progress class="progress is-warning" value="60" max="100">60%</progress>
+              <progress class="progress is-warning" value="70" max="100">70%</progress>
               <h3 class='is-size-5 is-size-6-mobile'>Vim/Neovim</h3>
               <progress class="progress is-warning" value="65" max="100">65%</progress>
               <h3 class='is-size-5 is-size-6-mobile'>tmux</h3>
-              <progress class="progress is-warning" value="45" max="100">45%</progress>
+              <progress class="progress is-warning" value="50" max="100">50%</progress>
             </div>
             <!-- Tools end -->
 
