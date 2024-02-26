@@ -24,6 +24,6 @@
   "license": "ISC",
   "devDependencies": {
     "bulma": "^0.9.4",
-    "sass": "^1.71.0"
+    "sass": "^1.71.1"
   }
 }
